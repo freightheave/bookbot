@@ -4,7 +4,6 @@ banlist_chars = string.punctuation + string.whitespace
 
 def main():
     #initialising
-    book_path = "books/frankenstein.txt"
     text = open("books/frankenstein.txt").read()
 
     #create set of unique lowercase chars
